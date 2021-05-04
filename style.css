@@ -571,6 +571,18 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+
+.home{
+    display: flex;
+    background: url("imagens/bcr.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: auto;
+    background-size: cover;
+   
+   font-family: 'Open Sans', sans-serif;
+}
+
     .home .home-content .text-2{
         font-size: 50px;
     }
