@@ -603,7 +603,8 @@ footer span a:hover{
 
 .rodrigo{
     color: #cc9933;
-  margin-left: -10%;
+    margin-left: -10%;
+    font-size: 28px;
 }
 
 .ramos{
@@ -614,6 +615,7 @@ footer span a:hover{
   color: #cc9933;
 text-align: right;
 margin-left: 35%;
+    font-size: 28px;
 
 }
 
