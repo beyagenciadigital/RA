@@ -82,9 +82,7 @@ font-style: italic;
 }
 
 .navbar .max-width{
-    display: flex;
-   
-   
+    display: flex;   
 }
 
 .navbar .logo img{
@@ -164,6 +162,32 @@ font-style: italic;
     filter: brightness(90%);
 }
 
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.rodrigo{
+    color: #cc9933;
+  margin-left: 10%;
+}
+
+.ramos{
+ color: white;
+}
+
+.paulo{
+  color: #cc9933;
+text-align: right;
+margin-left: 185%;
+
+}
+
+.almeida{
+    color: white;
+text-align: right;
+}
 
 /* home section styling */
 .home{
