@@ -490,7 +490,7 @@ footer span a:hover{
 .column-left {
     margin: auto;
     text-align: center;
-    margin: inherit
+   margin-top:: inherit;
 }
     .about .about-content .left img{
         height: 350px;
