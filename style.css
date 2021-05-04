@@ -461,11 +461,14 @@ footer span a:hover{
     transform: translate(-50%, -50%)
 }
 
-
 .column-left {
     margin: auto;
     text-align: center;
-    margin-top: inherit;
+        margin-top: inherit;
+}
+.column-left {
+    margin: auto;
+    text-align: center;
 }
     .about .about-content .left img{
         height: 350px;
@@ -482,7 +485,7 @@ footer span a:hover{
     .menu-btn{
         display: block;
         z-index: 999;
-        margin-left: 50%;
+        margin-left: 10%;
     }
     .menu-btn i.active:before{
         content: "\f00d";
@@ -568,6 +571,33 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 140%;
+}
+
+.rodrigo{
+    color: #cc9933;
+  margin-left: -10%;
+}
+
+.ramos{
+ color: white;
+}
+
+.paulo{
+  color: #cc9933;
+text-align: right;
+margin-left: 10%;
+
+}
+
+.almeida{
+    color: white;
+text-align: right;
+}
 
 .home{
     display: flex;
