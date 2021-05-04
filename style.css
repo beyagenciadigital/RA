@@ -461,14 +461,11 @@ footer span a:hover{
     transform: translate(-50%, -50%)
 }
 
+
 .column-left {
     margin: auto;
     text-align: center;
-        margin-top: inherit;
-}
-.column-left {
-    margin: auto;
-    text-align: center;
+    margin-top: inherit;
 }
     .about .about-content .left img{
         height: 350px;
