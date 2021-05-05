@@ -62,6 +62,7 @@ section .title1{
 color: #cc9933;
 font-size: 50px;
 font-style: italic;
+margin-top: 20px;
 
 }
 
@@ -183,13 +184,13 @@ margin-left: 185%;
 
 .almeida{
     color: white;
-text-align: right;
+    text-align: right;
 }
 
 /* home section styling */
 .home{
     display: flex;
-    background: url("imagens/bc.png") no-repeat center;
+    background: url("imagens/background.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: auto;
@@ -370,39 +371,44 @@ margin: 20px;
 
 /*------------------------------*/
 
-.sobre{
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
+.rodrigo{
+  color: #cc9933;
+  margin-left: 100%;
+  font-size: 100%;
+  margin-top: 370px;
 }
 
-.icons1 img{
-     width: 33px;
+.ramos{
+ color: white;
 }
-.icons2 img{
-     width: 33px;
+.e{
+  opacity: 0.1;
+  color: #cc9933;
+  margin-left: 0%;
+  font-size: 568%;
+  margin-top: 80%; 
 }
-.icons3 img{
-     width: 33px;
-}
-.icons4 img{
-     width: 33px;
+.paulo{
+    color: #cc9933;
+    text-align: right;
+    margin-left: 5%;
+    font-size: 100%;
+    margin-top: 370px;
 }
 
-.icons1 img:hover{
-     content: url('imagens/wpamarelo.png');
-     width: 33px;
+.almeida{
+    color: white;
+    text-align: right;
 }
-.icons2 img:hover{
-     content: url('imagens/fbamarelo.png');
-     width: 33px;
-}
-.icons3 img:hover{
-     content: url('imagens/igamarelo.png');
-     width: 33px;
-}
-.icons4 img:hover{
-     content: url('imagens/ggamarelo.png');
-     width: 33px;
+
+.adv{
+  opacity: 0.0;
+  color: black;
+  font-size: 17px;
+  margin-top: 15%; 
+  font-style: italic;
+  font-weight: 200;
+  margin-left: 150%;
 }
 
 
@@ -412,7 +418,6 @@ margin: 20px;
     margin-bottom: 5px;
     justify-content: space-between;
     text-align: center;
-
 }
 
 .nome{
@@ -464,6 +469,42 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+.icons1 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons2 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons3 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons4 img {
+    width: 50px;
+    padding: 0px 10px;
+}
+.icons1 img:hover {
+    width: 50px;
+    padding: 0px 10px;
+    content: url(imagens/wpamarelo.png);
+}
+.icons2 img:hover {
+    width: 50px;
+    padding: 0px 10px;
+    content: url(imagens/fbamarelo.png);
+}
+.icons3 img:hover {
+    width: 50px;
+    padding: 0px 10px;
+    content: url(imagens/igamarelo.png);
+}
+.icons4 img:hover {
+    width: 50px;
+    padding: 0px 10px;
+    content: url(imagens/ggamarelo.png);
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
@@ -475,7 +516,6 @@ footer span a:hover{
     margin-top: 100%;
     justify-content: space-between;
     text-align: center;
-     
     position: relative;
     left: 50%;
     margin-right: -50%;
@@ -490,30 +530,138 @@ footer span a:hover{
 .column-left {
     margin: auto;
     text-align: center;
-      margin-top: 50%;
 }
     .about .about-content .left img{
         height: 350px;
         width: 350px;
-            margin-top: 50%;
     }
+
+.rodrigo{
+  color: #cc9933;
+  margin-left: 50%;
+  font-size: 125%;
+  margin-top: -20%;
+}
+
+.ramos{
+ color: white;
+}
+
+.e{
+opacity: 0.2;
+color: #cc9933;
+  margin-left: -9%;
+  font-size: 568%;
+  margin-top: -40%; 
+}
+
+.paulo{
+    color: #cc9933;
+    text-align: right;
+    margin-left: -9%;
+    font-size: 125%;
+     margin-top: -20%;
+}
+
+.almeida{
+    color: white;
+    text-align: right;
+}
+
+.adv{
+  opacity: none;
+  color: #cc9933;
+  font-size: 20px;
+  margin-top: -5%; 
+  font-style: italic;
+  font-weight: 200;
+  margin-left: 40%;
+}
+
+.home{
+    display: flex;
+    background: url("imagens/background.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: auto;
+    background-size: cover;
+   font-family: 'Open Sans', sans-serif;
+}
 }
 
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
     }
+
+
 }
 @media (max-width: 947px){
+
+
+.rodrigo{
+  color: #cc9933;
+  margin-left: 25%;
+  font-size: 125%;
+  margin-top: -20%;
+}
+
+.ramos{
+ color: white;
+}
+
+.e{
+opacity: 0.2;
+color: #cc9933;
+  margin-left: -9%;
+  font-size: 568%;
+  margin-top: -40%; 
+}
+
+.paulo{
+    color: #cc9933;
+    text-align: right;
+    margin-left: -9%;
+    font-size: 125%;
+     margin-top: -20%;
+}
+
+.almeida{
+    color: white;
+    text-align: right;
+}
+
+.adv{
+  opacity: none;
+  color: #cc9933;
+  font-size: 20px;
+  margin-top: -5%; 
+  font-style: italic;
+  font-weight: 200;
+  margin-left: 40%;
+}
+
+.home{
+    display: flex;
+    background: url("imagens/bcw.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: auto;
+    background-size: cover;
+   font-family: 'Open Sans', sans-serif;
+}
+
     .menu-btn{
         display: block;
         z-index: 999;
         margin-left: 10%;
     }
+
     .menu-btn i.active:before{
         content: "\f00d";
         margin-left: 100%;
     }
+
     .navbar .menu{
         position: fixed;
         height: 100vh;
@@ -525,12 +673,14 @@ footer span a:hover{
         padding-top: 80px;
         transition: all 0.3s ease;
     }
+
     .navbar .menu.active{
         left: 0;
     }
     .navbar .menu li{
         display: block;
     }
+
     .navbar .menu li a{
         display: inline-block;
         margin: 20px 0;
@@ -576,6 +726,56 @@ footer span a:hover{
 
 @media (max-width: 690px) {
 
+.rodrigo{
+  color: #cc9933;
+  margin-left: 0%;
+  font-size: 100%;
+  margin-top: -30px;
+}
+
+.ramos{
+ color: white;
+}
+.e{
+opacity: 0.1;
+color: #cc9933;
+  margin-left: 0%;
+  font-size: 568%;
+  margin-top: -30%; 
+}
+.paulo{
+    color: #cc9933;
+    text-align: right;
+    margin-left: 5%;
+    font-size: 100%;
+    margin-top: -30px;
+
+}
+
+.almeida{
+    color: white;
+    text-align: right;
+}
+
+.adv{
+  color: #cc9933;
+  font-size: 17px;
+  margin-top: -5%; 
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  margin-left: auto;
+}
+.home{
+    display: flex;
+    background: url("imagens/backr.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: auto;
+    background-size: cover;
+   
+   font-family: 'Open Sans', sans-serif;
+}
     .home .home-content .text-2{
         font-size: 60px;
     }
@@ -601,29 +801,104 @@ footer span a:hover{
     font-size: 140%;
 }
 
+section{
+    padding: 0;
+}
+.skills{
+    padding: 100px 0px;
+}
+
+section{
+    padding: 0;
+}
 .rodrigo{
     color: #cc9933;
-    margin-left: -10%;
-    font-size: 28px;
+  margin-left: -10%;
+  font-size: 25px;
 }
 
 .ramos{
  color: white;
 }
-
+.e{
+opacity: 0.1;
+color: #cc9933;
+  margin-left: 0%;
+  font-size: 568%;
+  margin-top: -30%; 
+}
 .paulo{
-  color: #cc9933;
-text-align: right;
-margin-left: 35%;
-    font-size: 28px;
-
+    color: #cc9933;
+    text-align: right;
+    margin-left: 5%;
+    font-size: 25px;
 }
 
 .almeida{
     color: white;
-text-align: right;
+    text-align: right;
 }
 
+.adv{
+  color: #cc9933;
+  font-size: 17px;
+  margin-top: -5%; 
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  margin-left: auto;
+}
+
+.skills{
+    padding: 100px 0px;
+}
+
+.fot{
+    width: 200px;
+}
+
+.foto{
+     width: 200px;
+}
+.texto {
+    width: 300px;
+}
+footer {
+    padding: 100px 0px;
+    margin-top: -50%;
+}
+.icons1 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons2 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons3 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons4 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons1 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons2 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons3 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons4 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
 .home{
     display: flex;
     background: url("imagens/bcr.png") no-repeat center;
@@ -664,7 +939,235 @@ text-align: right;
         line-height: 38px;
     }
 
-    footer{
-        margin-top: -150%;
-    }
+   
+}
+
+@media (max-width: 400px) {
+
+
+
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 90%;
+}
+
+section{
+    padding: 0;
+}
+.rodrigo{
+    color: #cc9933;
+  margin-left: -10%;
+  font-size: 20px;
+}
+
+.ramos{
+ color: white;
+}
+.e{
+opacity: 0.1;
+color: #cc9933;
+  margin-left: 0%;
+  font-size: 568%;
+  margin-top: -30%; 
+}
+.paulo{
+    color: #cc9933;
+    text-align: right;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.almeida{
+    color: white;
+    text-align: right;
+}
+
+.adv{
+  color: #cc9933;
+  font-size: 17px;
+  margin-top: -5%; 
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  margin-left: auto;
+}
+
+.skills{
+    padding: 100px 0px;
+}
+
+.fot{
+    width: 200px;
+}
+
+.foto{
+     width: 200px;
+}
+.texto {
+    width: 300px;
+}
+footer {
+    padding: 100px 0px;
+    margin-top: -90%;
+}
+.icons1 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons2 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons3 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons4 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons1 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons2 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons3 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons4 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+
+.about .about-content .right .text, .skills .skills-content .left .text {
+    font-size: 15px;
+}
+
+.skills .skills-content .left p {
+    text-align: justify;
+    color: white;
+    font-size: 13px;
+}
+
+.skills .skills-content .right img {
+    width: 200px;
+    margin-left: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre .sobre-content {
+    display: inline-grid;
+    align-items: center;
+    margin-top: 150%;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+}
+
+@media (max-width: 350px) {
+
+section{
+    padding: 0;
+}
+.rodrigo{
+    color: #cc9933;
+  margin-left: -10%;
+  font-size: 20px;
+}
+
+.ramos{
+ color: white;
+}
+.e{
+opacity: 0.1;
+color: #cc9933;
+  margin-left: 0%;
+  font-size: 568%;
+  margin-top: -30%; 
+}
+.paulo{
+    color: #cc9933;
+    text-align: right;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.almeida{
+    color: white;
+    text-align: right;
+}
+
+.adv{
+  color: #cc9933;
+  font-size: 17px;
+  margin-top: -5%; 
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+}
+
+.skills{
+    padding: 100px 0px;
+}
+
+.fot{
+    width: 200px;
+}
+
+.foto{
+     width: 200px;
+}
+.texto {
+    width: 300px;
+}
+footer {
+    padding: 100px 0px;
+    margin-top: -90%;
+}
+.icons1 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons2 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons3 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons4 img {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons1 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons2 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons3 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
+.icons4 img:hover {
+    width: 50px;
+    padding: 0px 10px
+}
 }
